@@ -12,7 +12,6 @@ async function getGithubProjects() {
             throw new Error("Kunde inte hämta data.");
         }
         const data = await response.json();
-        console.log(data);
         showProjects(data);
     } catch (error) {
         showError(error);

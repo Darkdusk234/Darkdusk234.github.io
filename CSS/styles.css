@@ -238,7 +238,7 @@ body{
     background-image: url(../IMG/Sunset.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 70vw;
+    width: 50vw;
     height: 90vh;
     margin-top: 5rem;
     margin-bottom: 2rem;
@@ -322,6 +322,7 @@ body{
     -ms-transition: transform 0.5s;
     -o-transition: transform 0.5s;
     margin-bottom: 1rem;
+    z-index: 1;
 }
 
 .button:focus-visible {
@@ -553,5 +554,18 @@ body{
     .hobbiescontainer {
         margin-left: 3rem;
         margin-right: 10px;
+    }
+}
+
+@media (orientation: Landscape) {
+    .popup {
+        margin: 75px auto;
+        padding: 20px;
+        background: #fff;
+        border: 1px solid #666;
+        width: 500px;
+        height: 50vh;
+        position: relative;
+        background-color: lightgray;
     }
 }
