@@ -557,7 +557,7 @@ body{
     }
 }
 
-@media (max-width: 768px) and (orientation: Landscape) {
+@media (orientation: Landscape) {
 
     .overlay {
         position: fixed;
