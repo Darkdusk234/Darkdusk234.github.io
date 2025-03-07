@@ -558,6 +558,20 @@ body{
 }
 
 @media (max-width: 768px) and (orientation: Landscape) {
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: opacity 200ms;
+        visibility: hidden;
+        opacity: 0;
+        height: 60vh;
+        width: 600px;
+    }
+
     .popup {
         margin: 75px auto;
         padding: 20px;
@@ -567,5 +581,9 @@ body{
         height: 50vh;
         position: relative;
         background-color: lightgray;
+    }
+
+    .popup h2 {
+        
     }
 }
