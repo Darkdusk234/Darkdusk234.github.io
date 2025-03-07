@@ -65,16 +65,6 @@ function showProjects(projects) {
         </div>`;
 
         projectsPopUpContainer.appendChild(projectPopUpElement);
-
-        var modal = document.querySelector(`#${projectName}info`);
-
-        // Handle click on the modal container
-        modal.addEventListener('click', modalClose, false);
-
-        // Prevent event bubbling if click occurred within modal content body
-        modal.children[0].addEventListener('click', function(e) {
-        e.stopPropagation();
-        }, false);
     })
 }
 
