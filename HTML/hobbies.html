@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johan's CV</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="../CSS/styles.css" />
+</head>
+
+<body>
+    <header>
+        <a href="#main" class="skip">Hoppa till innehållet</a>
+        <nav class="navbar">
+            <div class="desktopnav">
+                <ul>
+                    <li class="navitem"><a href="./index.html">Hem</a></li>
+                    <li class="navitem"><a href="./experiences.html">Erfarenheter</a></li>
+                    <li class="navitem"><a href="./projects.html">Projekt</a></li>
+                    <li class="navitemhere">Hobbyer</li>
+                    <li class="navitem"><a href="./future.html">Framtiden</a></li>
+                </ul>
+            </div>
+            <div class="phonenav">
+                <div class="dropdownicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="55" height="65" viewBox="0 0 50 50">
+                        <path
+                            d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
+                        </path>
+                    </svg>
+                </div>
+                <input type="checkbox">
+                <div class="dropdowncontainer">
+                    <ul>
+                        <li class="navitem"><a href="./index.html">Hem</a></li>
+                        <li class="navitem"><a href="./experiences.html">Erfarenheter</a></li>
+                        <li class="navitem"><a href="./projects.html">Projekt</a></li>
+                        <li class="navitemhere">Hobbyer</li>
+                        <li class="navitem"><a href="./future.html">Framtiden</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="hobbiesmain" id="main">
+        <section class="hobbies">
+            <div class="hobbiescontainer">
+                <div class="hobbiesitem">
+                    <img class="hobbiesimg" src="..//IMG/magic-the-gathering.jpg"
+                        alt="En bild på ett magic the gathering kort.">
+                    <h3>Magic The Gathering</h3>
+                    <p>Ett populärt kortspel som spelas världen över.</p>
+                </div>
+                <div class="hobbiesitem">
+                    <img class="hobbiesimg" src="../IMG/Dnd.jpg" alt="En bild på en 20 sidig tärning">
+                    <h3>Dungeons And Dragons</h3>
+                    <p>Ett rollspel där man tillsammans med en grupp använder sin kreativitet och tärningar för att
+                        berrätta en berättelse.</p>
+                </div>
+                <div class="hobbiesitem">
+                    <img class="hobbiesimg" src="../IMG/Games.jpg" alt="En bild på en dator som kör ett dator spel.">
+                    <h3>Videospel</h3>
+                    <p>En populär hobby där man spelar olika typer av spel digitalt.</p>
+                </div>
+                <div class="hobbiesitem">
+                    <img class="hobbiesimg" src="../IMG/Chess.jpg" alt="En bild på ett schack bräde.">
+                    <h3>Schack</h3>
+                    <p>Ett brädspel som är väldigt populärt och som kräver strategi och planering.</p>
+                </div>
+                <div class="hobbiesitem">
+                    <img class="hobbiesimg" src="../IMG/Book.jpg" alt="En bild på en bok.">
+                    <h3>Läsa</h3>
+                    <p>En populär hobby där man läser böcker för att sänka ner sig i en påhittad värld.</p>
+                </div>
+            </div>
+        </section>
+        <div class="modal" id="easterModal">
+            <div class="modalContent">
+                <div class="closeX">
+                    <span id="closeModal">&times</span>
+                </div>
+                <p id="modalText">I see a fellow Doctor Who fan has arrived.</p>
+            </div>
+        </div>
+    </main>
+    <script src="../Script/script.js"></script>
+</body>
+
+</html>

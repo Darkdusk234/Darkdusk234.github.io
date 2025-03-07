@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johan's CV</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="../CSS/styles.css" />
+</head>
+
+<body>
+    <header>
+        <a href="#main" class="skip">Hoppa till innehållet</a>
+        <nav class="navbar">
+            <div class="desktopnav">
+                <ul>
+                    <li class="navitem"><a href="./index.html">Hem</a></li>
+                    <li class="navitemhere">Erfarenheter</li>
+                    <li class="navitem"><a href="./projects.html">Projekt</a></li>
+                    <li class="navitem"><a href="./hobbies.html">Hobbyer</a></li>
+                    <li class="navitem"><a href="./future.html">Framtiden</a></li>
+                </ul>
+            </div>
+            <div class="phonenav">
+                <div class="dropdownicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="55" height="65" viewBox="0 0 50 50">
+                        <path
+                            d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
+                        </path>
+                    </svg>
+                </div>
+                <input type="checkbox">
+                <div class="dropdowncontainer">
+                    <ul>
+                        <li class="navitem"><a href="./index.html">Hem</a></li>
+                        <li class="navitemhere">Erfarenheter</li>
+                        <li class="navitem"><a href="./projects.html">Projekt</a></li>
+                        <li class="navitem"><a href="./hobbies.html">Hobbyer</a></li>
+                        <li class="navitem"><a href="./future.html">Framtiden</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="experiencesmain" id="main">
+        <aside>
+            <article class="experiencesimg">
+                <img src="../IMG/Experiences.jpg" alt="Någon som plockar ut en bok från en bokhylla i ett bibliotek">
+            </article>
+        </aside>
+        <section class="experiencessection">
+            <div class="educationexperiencecontainer">
+                <div class="educationcontainer">
+                    <h2>Utbildningar</h2>
+                    <article>
+                        <ul id="allSchoolsList">
+
+                        </ul>
+                    </article>
+                </div>
+                <h2 class="otherexperiences">Annan Erfarenhet</h2>
+                <article>
+                    <ul id="workexperienceslist">
+
+                    </ul>
+                </article>
+            </div>
+            <div class="languages">
+                <h2 class="otherexperiences">Programmerings språk</h2>
+                <article>
+                    <ul class="otherexperienceslist">
+                        <li>
+                            Java
+                        </li>
+                        <li>
+                            C#
+                        </li>
+                        <li>
+                            Python
+                        </li>
+                    </ul>
+                </article>
+                <h2 class="otherexperiences">Språk</h2>
+                <article>
+                    <ul class="otherexperienceslistbottom">
+                        <li>
+                            Svenska
+                        </li>
+                        <li>
+                            Engelska
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <div class="modal" id="easterModal">
+            <div class="modalContent">
+                <div class="closeX">
+                    <span id="closeModal">&times</span>
+                </div>
+                <p id="modalText">I see a fellow Doctor Who fan has arrived.</p>
+            </div>
+        </div>
+    </main>
+    <script src="../Script/experiences.js"></script>
+    <script src="../Script/script.js"></script>
+</body>
+
+</html>

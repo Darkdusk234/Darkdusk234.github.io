@@ -1,0 +1,45 @@
+{
+    "schools":[
+        {
+            "id":"1",
+            "name":"Campus Varberg",
+            "courseName":"Systemutvecklare .NET",
+            "time":"2024-09-06 - 2026-06-30"
+        },
+        {
+            "id":"2",
+            "name":"ECUtbildning",
+            "courseName":"Mjukvarutestare",
+            "time":"2020-08-24 - 2022-01-15"
+        },
+        {
+            "id":"3",
+            "name":"Elof Lindälvs Gymnasium",
+            "courseName":"Teknik",
+            "time":"2017-08-15 - 2020-06-05"
+        }
+    ],
+
+    "otherExperiences":[
+        {
+            "id":"1",
+            "time":"2021-2022",
+            "experience":"LIA på TestBolaget AB"
+        },
+        {
+            "id":"2",
+            "time":"2016-2018",
+            "experience":"Ledar assistant på Kungsbacka schack club."
+        },
+        {
+            "id":"3",
+            "time":"2016",
+            "experience":"Praktik en vecka på Millesons handelsträdgård"
+        },
+        {
+            "id":"4",
+            "time":"2015",
+            "experience":"Praktik en vecka på Iserås skolan träslojd."
+        }
+    ]
+}
