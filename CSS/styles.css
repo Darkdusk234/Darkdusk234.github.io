@@ -555,6 +555,10 @@ body{
         margin-left: 3rem;
         margin-right: 10px;
     }
+
+    .popup p {
+        font-size: 15px;
+    }
 }
 
 @media (orientation: Landscape) {
@@ -568,8 +572,6 @@ body{
         transition: opacity 200ms;
         visibility: hidden;
         opacity: 0;
-        height: 60vh;
-        width: 600px;
     }
 
     .popup {
@@ -577,13 +579,9 @@ body{
         padding: 20px;
         background: #fff;
         border: 1px solid #666;
-        width: 500px;
-        height: 50vh;
+        width: 75vw;
+        height: 65vh;
         position: relative;
         background-color: lightgray;
-    }
-
-    .popup h2 {
-        
     }
 }
