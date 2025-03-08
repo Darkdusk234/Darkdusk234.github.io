@@ -65,6 +65,9 @@ function showProjects(projects) {
 
         projectsPopUpContainer.appendChild(projectPopUpElement);
     })
+    const waitmessage = document.getElementById("waitmessage");
+
+    waitmessage.remove();
 }
 
 function showError(error) {
